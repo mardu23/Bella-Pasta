@@ -1,0 +1,15 @@
+erDiagram
+ CLIENTES ||--o{ RESERVAS : realiza
+ MESAS ||--o{ RESERVAS : asignada
+ CLIENTES ||--o{ PEDIDOS : solicita
+ MESAS |o--o{ PEDIDOS : atiende
+ CATEGORIAS ||--o{ PLATOS : contiene
+ PEDIDOS ||--o{ DETALLES_PEDIDO : contiene
+ PLATOS ||--o{ DETALLES_PEDIDO : incluye
+ CLIENTES { int id PK string nombre string telefono string correo }
+ MESAS { int id PK int numero UK int capacidad string estado }
+ CATEGORIAS { int id PK string nombre UK string descripcion }
+ PLATOS { int id PK string nombre string descripcion float precio int categoria_id FK int disponible }
+ RESERVAS { int id PK int cliente_id FK int mesa_id FK date fecha string hora int personas string estado }
+ PEDIDOS { int id PK int cliente_id FK int mesa_id FK date fecha string estado }
+ DETALLES_PEDIDO { int id PK int pedido_id FK int plato_id FK int cantidad float precio_unitario }
