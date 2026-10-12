@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--cream:#fff2e9;--paper:#fffaf3;--ink:#3c2424;--muted:#a7807c;--forest:#b71527;--dark:#811224;--line:#f2d9d3;--orange:#e96d57}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:14px 'DM Sans',sans-serif}button,input,select{font:inherit}button{cursor:pointer}.layout{display:flex;min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;width:250px;flex-shrink:0;background:#fff;border-right:1px solid #ededeb;padding:30px 17px;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:11px;margin:5px 10px 55px;letter-spacing:1.4px;font-size:19px;font-weight:800;color:var(--forest);line-height:1}.brand strong{font-weight:800}.brand small{display:block;font-size:8px;letter-spacing:2.5px;margin-top:8px;color:#909b91}.brand-icon{height:43px;width:43px;background:var(--forest);color:#fff;border-radius:13px;display:grid;place-items:center;font-size:30px}.nav-heading,.eyebrow{font-weight:800;letter-spacing:2px;font-size:10px;color:#a7aaa3}.nav-heading{padding:0 15px;margin-bottom:17px}.sidebar nav{display:flex;flex-direction:column;gap:5px}.nav-item{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:transparent;border:0;border-radius:9px;padding:13px 16px;color:#657168;font-weight:600}.nav-item:hover{background:#f5f7f3}.nav-item.active{background:#eaf0e9;color:#254d3c}.nav-symbol{font-size:19px;line-height:1;width:22px;text-align:center}.sidebar-bottom{margin-top:auto;border-top:1px solid var(--line);padding:20px 8px 0;display:flex;gap:12px;align-items:center}.avatar,.profile{display:grid;place-items:center;border-radius:50%;background:#e3ebdd;color:var(--forest);font-weight:800}.avatar{height:39px;width:39px}.sidebar-bottom strong{font-size:12px}.sidebar-bottom small{display:block;color:var(--muted);font-size:11px;margin-top:4px}.main{width:min(1320px,100%);padding:37px 52px 42px;margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px}.crumb{color:#a3a69f;font-size:12px;margin-bottom:18px}.crumb span{padding:0 9px}.crumb b{font-weight:600;color:var(--forest)}h1{font:600 clamp(27px,3vw,35px) 'Playfair Display',Georgia,serif;margin:0 0 8px}#subtitle{color:#8e928b;margin:0}.top-actions{display:flex;align-items:center;gap:17px}.today{color:#8d948d;font-size:12px}.profile{width:37px;height:37px}.hero{min-height:277px;border-radius:17px;background:var(--forest);position:relative;overflow:hidden;display:flex;justify-content:space-between;color:#fff;padding:38px 52px;margin-bottom:23px}.hero-copy{z-index:2}.hero-kicker{font-size:10px;font-weight:800;letter-spacing:2.3px;color:#e0dbb3}.hero h2{font:500 clamp(27px,3vw,41px)/1.16 'Playfair Display',Georgia,serif;margin:15px 0 12px}.hero h2 em{color:#e8c89c}.hero p{color:#d5e1d7;line-height:1.7;max-width:360px;margin:0 0 22px;font-size:12px}.primary{background:var(--forest);color:#fff;padding:12px 18px;border:0;border-radius:9px;font-weight:700}.primary:hover{filter:brightness(1.14)}.primary.light{background:#f3e2c8;color:#294738}.primary.light span{margin-left:10px}.hero-art{position:absolute;right:8%;top:12%;width:255px;height:255px;border:1px solid #76908066;border-radius:50%;display:grid;place-items:center}.hero-art:before,.hero-art:after{content:'';position:absolute;border:1px solid #76908055;border-radius:50%;inset:18px}.hero-art:after{inset:34px}.plate{font-size:100px;filter:drop-shadow(0 12px 13px #122d224f);transform:rotate(-14deg);z-index:1}.leaf{position:absolute;font-size:50px;color:#e5c896}.one{right:-40px;top:18px}.two{left:-25px;bottom:20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.stat{padding:22px 24px;border-radius:12px;border:1px solid var(--line);background:#fff}.stat-top{display:flex;justify-content:space-between;color:#879087;font-size:12px;font-weight:600}.stat-icon{display:grid;place-items:center;width:35px;height:35px;border-radius:10px;background:#f0f3ed;color:#45644f;font-size:17px}.stat strong{display:block;font-size:28px;margin-top:8px;color:#273e30}.stat small{display:block;color:#a0a49d;margin-top:3px;font-size:11px}.section-heading{margin:34px 0 19px}.section-heading h2,.module-top h2{font:600 26px 'Playfair Display',Georgia,serif;margin:6px 0 0}.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.quick{position:relative;text-align:left;display:flex;flex-direction:column;min-height:155px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:22px}.quick:hover{border-color:#a7bcb0;transform:translateY(-2px)}.quick-icon{font-size:20px;width:37px;height:37px;border-radius:10px;display:grid;place-items:center;margin-bottom:14px}.coral{background:#fbede6;color:#c8795a}.ochre{background:#f8f1dc;color:#a98a40}.green{background:#eaf3e8;color:#45714a}.quick strong{font-size:15px;margin-bottom:6px}.quick small{color:#939a92;font-size:11px}.quick-arrow{position:absolute;right:20px;bottom:23px;color:#8c978b;font-size:19px}.footnote{text-align:center;margin-top:30px;font-size:11px;color:#a7aaa5}.module-top{display:flex;justify-content:space-between;align-items:center;margin:18px 0 24px}.module-top p{color:#8d948c}.data-card{border:1px solid var(--line);background:#fff;border-radius:14px;overflow:hidden}.table-top{padding:21px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}.table-top input{padding:11px 14px;width:240px;border:1px solid var(--line);border-radius:8px;outline-color:#8cae98}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left}th{background:#f7f9f5;color:#829084;text-transform:uppercase;font-size:10px;letter-spacing:1px;padding:15px 22px;white-space:nowrap}td{padding:16px 22px;border-top:1px solid #f1f2ed;white-space:nowrap;color:#526055}td:first-child{font-weight:700;color:#273d30}.row-actions{display:flex;gap:7px}.small-btn{padding:7px 10px;border:1px solid #e2e8df;background:#fff;color:#486d58;border-radius:6px;font-size:12px}.small-btn.danger{color:#b75555}.empty{text-align:center;padding:55px;color:#939991}.modal-backdrop{position:fixed;inset:0;background:#17291e99;display:flex;align-items:center;justify-content:center;z-index:10;padding:15px}.modal-backdrop[hidden],[hidden]{display:none!important}.modal{width:min(620px,100%);max-height:92vh;overflow-y:auto;background:#fff;border-radius:17px;padding:28px}.modal-header{display:flex;justify-content:space-between;align-items:start;margin-bottom:25px}.modal-header h2{font:600 26px 'Playfair Display',Georgia,serif;margin:9px 0 0}.close{border:0;background:#f2f4ef;border-radius:8px;padding:9px}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:12px;font-weight:700}.field input,.field select{width:100%;padding:12px;border:1px solid #e0e5df;border-radius:8px;background:#fff;min-width:0}.field.wide{grid-column:span 2}.modal-actions{display:flex;justify-content:end;gap:10px;margin-top:25px}.secondary{border:1px solid #e1e5df;background:#fff;color:#4f5d50;border-radius:9px;padding:12px 18px}#formError{color:#a93434;background:#ffefef;padding:12px;border-radius:7px}.toast{position:fixed;right:25px;bottom:24px;background:#294c3b;color:#fff;padding:13px 20px;border-radius:10px;box-shadow:0 10px 30px #0002;display:none;z-index:20}.toast.show{display:block}@media(max-width:1050px){.main{padding:30px}.sidebar{width:215px}.hero-art{right:0}}@media(max-width:760px){.layout{display:block}.sidebar{height:auto;position:relative;width:100%;padding:15px}.brand{margin:0 0 16px}.nav-heading,.sidebar-bottom{display:none}.sidebar nav{flex-direction:row;overflow-x:auto}.nav-item{min-width:max-content}.main{padding:20px}.stats{grid-template-columns:repeat(2,1fr)}.quick-grid{grid-template-columns:1fr}.hero{padding:27px}.hero-art{opacity:.19;right:-80px}.topbar{align-items:flex-start}.today{display:none}.form-grid{grid-template-columns:1fr}.field.wide{grid-column:span 1}.module-top{gap:10px;align-items:end}.table-top input{width:160px}}
+
+/* Bella Pasta · estética cálida inspirada en la referencia */
+body{background:linear-gradient(135deg,#f9bdc6,#ffe7dc 62%,#ffe4cd) fixed;color:var(--ink)}
+.sidebar{background:#fff7ee;border-right-color:#f4d4ce}
+.main{background:#fff7ef;min-height:100vh;box-shadow:0 15px 45px #9d3e4720}
+.brand,.crumb b,.nav-item.active,.stat strong,td:first-child{color:var(--forest)}
+.brand-icon{background:#c80c21;border-radius:50%;box-shadow:0 4px 0 #f4c7bf}
+.nav-item{color:#986e6c}.nav-item:hover,.nav-item.active{background:#ffe0df;color:#ae1025}
+.avatar,.profile{background:#ffdbd7;color:#a50b25}
+h1,.section-heading h2,.module-top h2,.modal-header h2{color:#a70d24}
+.hero{background:#ffd0d6;color:#a50d23;min-height:322px;border-radius:19px;padding:46px 45% 42px 45px;overflow:hidden}
+.hero:before{content:'';position:absolute;right:0;top:0;bottom:0;width:44%;background:linear-gradient(135deg,#ffb489,#ef6a44 52%,#c81927);border-radius:18px 0 0 18px}
+.hero-kicker{color:#c31d34}.hero h2{font-size:clamp(33px,3.7vw,55px);line-height:1.06;color:#a2071a}.hero h2 em{color:#e34345;font-style:italic}.hero p{color:#874c53;font-size:13px}
+.primary,.primary.light{background:#c70c23;color:white;border-radius:25px;padding:12px 22px}
+.hero-art{right:4%;top:8%;width:35%;height:85%;border:2px solid #fff1d882;background:#f9bc9255;box-shadow:0 18px 28px #ac2b3344,inset 0 0 40px #b9293420}
+.hero-art:before,.hero-art:after{border-color:#fff0d970}.plate{font-size:clamp(90px,12vw,170px);filter:drop-shadow(0 15px 10px #a4263650);transform:rotate(-9deg)}.leaf{color:#fff5da}
+.stat,.quick,.data-card,.modal{background:#fffaf6;border-color:#f2d7d3}.stat-icon{background:#ffe0df;color:#b91930}
+.quick:hover{border-color:#df7180}.coral{background:#ffdce2;color:#b7182f}.ochre{background:#ffe5ce;color:#c44c2c}.green{background:#f5d8e5;color:#a2285c}
+.quick-arrow{color:#c21732}.stat small,.quick small,.module-top p{color:#ab8583}
+th{background:#fff0ec;color:#9a5e60}td{color:#664c4a;border-color:#f9e7e3}.small-btn{border-color:#f0d5d2;color:#b31b32}.small-btn.danger{color:#d6474f}
+.toast{background:#97152b}.close{background:#ffe0df}
+@media(max-width:760px){.hero{padding:28px 35% 28px 24px}.hero:before{width:33%}.hero-art{right:-10%;width:48%;height:65%;top:22%;opacity:.55}.plate{font-size:85px}}
+
+/* FOTO PRINCIPAL - BELLA PASTA */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Contenedor de la fotografía */
+.hero-art {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44%;
+    height: 100%;
+    border: none;
+    border-radius: 0 19px 19px 0;
+    background: none;
+    box-shadow: none;
+    transform: none;
+    opacity: 1;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+}
+
+/* Eliminar los círculos del dibujo anterior */
+.hero-art::before,
+.hero-art::after {
+    display: none;
+}
+
+/* Fotografía de la pasta */
+.hero-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 65%;
+    transform: none;
+    filter: none;
+    border-radius: 0 19px 19px 0;
+}
+
+/* Mantener el texto sobre el fondo rosado */
+.hero-copy {
+    position: relative;
+    z-index: 2;
+}
+
+/* Quitar el fondo naranja anterior */
+.hero::before {
+    display: none;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 760px) {
+    .hero {
+        padding: 28px 40% 28px 24px;
+    }
+
+    .hero-art {
+        top: 0;
+        right: 0;
+        width: 38%;
+        height: 100%;
+        opacity: 1;
+    }
+
+    .hero-image {
+        object-position: center;
+    }
+}
+
+/* FOTO MÁS ANCHA - BELLA PASTA */
+
+.hero-art {
+    right: 0;
+    width: 45%;
+    height: 100%;
+    top: 0;
+    border-radius: 0 19px 19px 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Mantener el texto en su espacio */
+.hero {
+    padding-right: 47%;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 760px) {
+    .hero-art {
+        width: 40%;
+    }
+
+    .hero {
+        padding-right: 42%;
+    }
+}
